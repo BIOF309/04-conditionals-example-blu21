@@ -8,6 +8,7 @@ nih_input = input ("Enter the acronym of an NIH institute, center, or office (up
 #capitalizes the letters of the acronyms
 nih = nih_input.upper()
 
+#if...if else...else statements for matching the acronyms of each NIH institute acronym to its full name
 if nih == "OD":
     print (nih, "= NIH office of the Director")
 elif nih == "NCI":
